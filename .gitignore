@@ -1,19 +1,16 @@
 
 ###> symfony/framework-bundle ###
-code/.env.local
-code/.env.local.php
-code/.env.*.local
-code/config/secrets/prod/prod.decrypt.private.php
-code/public/bundles/
-code/var/
-code/vendor/
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
 .phpunit
 .phpunit.result.cache
-code/phpunit.xml
+/phpunit.xml
 ###< symfony/phpunit-bridge ###
-code/.env
-code/.idea/vcs.xml
-code/symfony.lock
