@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+use App\Entity\User;
 use Symfony\Component\Routing\Annotation\Route;
 use App\Entity\Company;
 use App\Form\CompanyType;
@@ -46,6 +47,7 @@ class CompanyController extends AbstractController
             $company = new Company();
             $company->setName($data['name']);
             $company->setEmail($data['email']);
+            $company->setOwner($data['owner']);
 
             $entityManager->persist($company);
             $entityManager->flush();
@@ -55,6 +57,9 @@ class CompanyController extends AbstractController
 
         return $this->render('company/new.html.twig', [
           'form' => $form->createView(),
+            'usuarios' => $entityManager
+              ->getRepository(User::class)
+              ->findAll()
         ]);
     }
 
