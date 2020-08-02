@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908e19b0-c886-4f05-816b-79ec4440f68b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/code/templates/company/new.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/.env" beforeDir="false" afterPath="$PROJECT_DIR$/code/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/src/Controller/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Controller/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/templates/company/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/code/templates/company/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/src/Entity/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Entity/Company.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="homestead.test" id="aa8d2d75-c0de-4ba8-b2b5-a1fffe9fb3b4" name="homestead.test" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$/code/public" remote-root="/home/vagrant/code/public" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
   <component name="ProjectId" id="1fVPCE1pAsgd8qlskmm37uZvO62" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -27,10 +39,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/code/templates/company" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/code/templates/company" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -44,11 +58,88 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596300157628</updated>
-      <workItem from="1596300163300" duration="4081000" />
+      <workItem from="1596300163300" duration="6438000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-844" y="360" key="#com.intellij.ide.util.MemberChooser" timestamp="1596383735984">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state x="-844" y="360" key="#com.intellij.ide.util.MemberChooser/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596383735984" />
+    <state width="1238" height="258" key="GridCell.Tab.0.bottom" timestamp="1596382714843">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.bottom/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714843" />
+    <state width="1238" height="258" key="GridCell.Tab.0.bottom/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636799" />
+    <state width="1238" height="258" key="GridCell.Tab.0.center" timestamp="1596382714836">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.center/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714836" />
+    <state width="1238" height="258" key="GridCell.Tab.0.center/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636797" />
+    <state width="1238" height="258" key="GridCell.Tab.0.left" timestamp="1596382714833">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.left/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714833" />
+    <state width="1238" height="258" key="GridCell.Tab.0.left/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636795" />
+    <state width="1238" height="258" key="GridCell.Tab.0.right" timestamp="1596382714842">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.0.right/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714842" />
+    <state width="1238" height="258" key="GridCell.Tab.0.right/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636798" />
+    <state width="1238" height="258" key="GridCell.Tab.1.bottom" timestamp="1596382714850">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.bottom/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714850" />
+    <state width="1238" height="258" key="GridCell.Tab.1.bottom/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636354" />
+    <state width="1238" height="258" key="GridCell.Tab.1.center" timestamp="1596382714845">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.center/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714845" />
+    <state width="1238" height="258" key="GridCell.Tab.1.center/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636339" />
+    <state width="1238" height="258" key="GridCell.Tab.1.left" timestamp="1596382714844">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.left/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714844" />
+    <state width="1238" height="258" key="GridCell.Tab.1.left/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636321" />
+    <state width="1238" height="258" key="GridCell.Tab.1.right" timestamp="1596382714846">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.1.right/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714846" />
+    <state width="1238" height="258" key="GridCell.Tab.1.right/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636352" />
+    <state width="1238" height="258" key="GridCell.Tab.2.bottom" timestamp="1596382714855">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.bottom/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714855" />
+    <state width="1238" height="258" key="GridCell.Tab.2.bottom/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636379" />
+    <state width="1238" height="258" key="GridCell.Tab.2.center" timestamp="1596382714853">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.center/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714853" />
+    <state width="1238" height="258" key="GridCell.Tab.2.center/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636371" />
+    <state width="1238" height="258" key="GridCell.Tab.2.left" timestamp="1596382714851">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.left/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714851" />
+    <state width="1238" height="258" key="GridCell.Tab.2.left/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636364" />
+    <state width="1238" height="258" key="GridCell.Tab.2.right" timestamp="1596382714854">
+      <screen x="-1280" y="280" width="1280" height="800" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.right/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714854" />
+    <state width="1238" height="258" key="GridCell.Tab.2.right/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636372" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/code/src/Controller/CompanyController.php</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

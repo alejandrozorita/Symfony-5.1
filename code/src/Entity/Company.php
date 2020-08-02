@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Repository\CompanyRepository;
+use ArrayAccess;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
@@ -12,6 +13,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Company
 {
+
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
