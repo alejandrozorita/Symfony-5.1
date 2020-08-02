@@ -10,7 +10,7 @@
 
     <div class="example-wrapper">
         <h1>Empresas registradas</h1>
-
+        <p><a href="{{ url('company_new') }}">Nueva empresa</a></p>
         {% if companies|length > 0 %}
             <ul>
                 {% for company in companies %}
