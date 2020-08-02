@@ -16,3 +16,4 @@ code/phpunit.xml
 ###< symfony/phpunit-bridge ###
 code/.env
 code/.idea/vcs.xml
+code/symfony.lock

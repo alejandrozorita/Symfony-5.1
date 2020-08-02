@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="908e19b0-c886-4f05-816b-79ec4440f68b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/code/templates/company/new.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/.env" beforeDir="false" afterPath="$PROJECT_DIR$/code/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Controller/CompanyController.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Controller/CompanyController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/src/Entity/Company.php" beforeDir="false" afterPath="$PROJECT_DIR$/code/src/Entity/Company.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/code/config/packages/security.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +15,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpServers">
     <servers>
       <server host="homestead.test" id="aa8d2d75-c0de-4ba8-b2b5-a1fffe9fb3b4" name="homestead.test" use_path_mappings="true">
@@ -58,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1596300157628</updated>
-      <workItem from="1596300163300" duration="6438000" />
+      <workItem from="1596300163300" duration="6998000" />
     </task>
     <servers />
   </component>
@@ -130,16 +125,5 @@
     </state>
     <state width="1238" height="258" key="GridCell.Tab.2.right/-1280.280.1280.800/0.0.1920.1080@-1280.280.1280.800" timestamp="1596382714854" />
     <state width="1238" height="258" key="GridCell.Tab.2.right/-1280.303.1280.777/0.23.1920.985@-1280.303.1280.777" timestamp="1596382636372" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/code/src/Controller/CompanyController.php</url>
-          <line>42</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
